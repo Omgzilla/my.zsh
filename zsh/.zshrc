@@ -1,5 +1,5 @@
 # Created by Ohmygodzilla
-export PATH="/home/marcus/.local/bin:/home/marcus/scripts:$PATH"
+#export PATH="/home/marcus/.local/bin:/home/marcus/scripts:$PATH"
 source ~/.config/zsh/.zprofile
 source ~/.config/zsh/aliasrc
 
