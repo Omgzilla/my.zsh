@@ -1,0 +1,63 @@
+#########################
+#    _    _ _           #
+#   / \  | (_) __ _ ___ #
+#  / _ \ | | |/ _` / __|#
+# / ___ \| | | (_| \__ \#
+#/_/   \_\_|_|\__,_|___/#
+#########################
+#Misc commands
+alias ls='ls --color=auto'
+alias l='ls -l --color=auto'
+alias ll='ls -al --color=auto'
+alias grep='grep --color=auto'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias mkdir='mkdir -pv'
+alias pac='sudo pacman'
+alias v='nvim'
+alias sv='sudo nvim'
+alias c='clear'
+alias src='source ~/.config/zsh/.zshrc'
+alias qfind='find . -name'
+alias ..='cd ..'
+alias sys='sudo systemctl'
+alias ss='startx "$XDG_CONFIG_HOME/x11/bspwm"'
+alias sd='startx "$XDG_CONFIG_HOME/x11/dwm"'
+alias w='feh --bg-fill -r -z ~/pics/wallpapers/'
+alias suck='rm -f config.h && sudo make install'
+
+#Quick edit configs
+alias brc='nvim ~/.bashrc'
+alias zrc='nvim ~/.config/zsh/.zshrc'
+alias krc='nvim ~/.config/kitty/kitty.conf'
+alias bsprc='nvim ~/.config/bspwm/bspwmrc'
+alias polyrc='nvim ~/.config/polybar/config'
+alias sxhrc='nvim ~/.config/sxhkd/sxhkdrc'
+alias aliasrc='nvim ~/.config/zsh/aliasrc'
+alias alacrc='nvim ~/.config/alacritty/alacritty.yml'
+alias vimrc='nvim ~/.config/nvim/init.vim'
+
+#Git
+alias commit='git add -A; git commit -m'
+
+#Quick change directories
+alias down='cd ~/Downloads'
+alias pics='cd ~/Pictures'
+
+#Permissions
+alias 000='chmod 000'
+alias 640='chmod 640'
+alias 644='chmod 644'
+alias 755='chmod 755'
+alias 775='chmod 775'
+alias ux='chmod u+x'
+
+#Application
+alias top='bashtop'
+alias fetch='clear && neofetch'
+alias pfetch='clear && pfetch'
+
+#Git
+#alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/.git/ --wor    k-tree=$HOME'
+
