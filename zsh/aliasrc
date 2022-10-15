@@ -26,6 +26,10 @@ alias ss='startx "$XDG_CONFIG_HOME/x11/bspwm"'
 alias sd='startx "$XDG_CONFIG_HOME/x11/dwm"'
 alias w='feh --bg-fill -r -z ~/pics/wallpapers/'
 alias suck='rm -f config.h && sudo make install'
+alias bwup='brew update -v'
+alias bwupg='brew upgrade -v'
+alias bwi='brew install -v'
+alias bws='brew search -v'
 
 #Quick edit configs
 alias brc='nvim ~/.bashrc'
